@@ -16,6 +16,7 @@ export default function HomePage() {
       {/* Right column: About Section */}
       <div className={styles.rightColumn}>
         <About />
+        <Projects />
       </div>
     </div>
   );
