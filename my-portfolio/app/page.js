@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Contact from './components/Contact';
 import About from './components/About';
+import Projects from './components/Projects';
 import styles from './page.module.css';
 
 export default function HomePage() {
