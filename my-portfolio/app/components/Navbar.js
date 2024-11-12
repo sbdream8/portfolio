@@ -1,6 +1,8 @@
 // app/components/Navbar.js
 import Link from 'next/link';
 import styles from './Navbar.module.css';
+import About from './About';
+import Projects from './Projects';
 
 export default function Navbar() {
   return (
@@ -14,9 +16,6 @@ export default function Navbar() {
         </li>
         <li className={styles.navItem}>
           <Link href="/projects">Projects</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
