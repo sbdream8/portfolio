@@ -8,6 +8,7 @@ export default function Projects() {
               <br></br>
             <li>LikeLion</li>
               <p>Built a web project with JavaScript, HTML, and GitHub.</p>
+              <p>Built a personal portfolio website.</p>
           </ul>
       </div>
     );
